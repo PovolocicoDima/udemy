@@ -35,7 +35,7 @@ alert(`Цикл отработал за ${end - start} миллисекунд`);
 // console.log(now.getDate());
 // console.log(now.getHours());
 // console.log(now.getDay());
-// console.log(now.getHours());
+// console.log(noб w.getHours());
 // console.log(now.getUTCHours());
 
 
