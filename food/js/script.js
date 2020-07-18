@@ -238,34 +238,41 @@ window.addEventListener('DOMContentLoaded', () => {
                 display: block;
                 margin: 0 auto;
             `;
+            // Старый метод
             // form.append(statusMessage);
             form.insertAdjacentElement('afterend', statusMessage);
 
-            const request = new XMLHttpRequest();
-            request.open('POST', 'server.php');
-
+            // const request = new XMLHttpRequest();
+            // request.open('POST', 'server.php');
             // Если в связке работают XMLHttpRequest и formData, то не нужно указывать заголовки request.setRequestHeader, так как данные не будут корректно передаваться 
-            request.setRequestHeader('Content-type', 'aplication/json; charset=utf-8');
+            // request.setRequestHeader('Content-type', 'aplication/json; charset=utf-8');
             const formData = new FormData(form);
 
             const object = {};
             formData.forEach(function(value, key) {
                 object[key] = value;
             });
+            // const json = JSON.stringify(object);
+            // request.send(json);
 
-            const json = JSON.stringify(object);
 
-            request.send(json);
-
-            request.addEventListener('load', () => {
-                if (request.status === 200) {
-                    console.log(request.response);
-                    showThanksModal(message.success);
-                    form.reset();
-                    statusMessage.remove();
-                } else {
-                    showThanksModal(message.failure);
-                }
+            // Новый метод
+            fetch('server1.php', {
+                method: "POST",
+                headers: {
+                    'Content-type': 'aplication/json'
+                },
+                body: JSON.stringify(object)
+            })
+            .then(data => data.text())
+            .then(data => {
+                console.log(data);
+                showThanksModal(message.success);
+                statusMessage.remove();
+            }).catch(() => {
+                showThanksModal(message.failure);
+            }).finally(() => {
+                form.reset();
             });
         });
     }
@@ -274,7 +281,6 @@ window.addEventListener('DOMContentLoaded', () => {
         const prevModalDialog = document.querySelector('.modal__dialog');
 
         prevModalDialog.classList.add('hide');
-        // prevModalDialog.style.display = 'none';
         openModal();
 
         const thanksModal = document.createElement('div');
@@ -290,7 +296,6 @@ window.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {
             thanksModal.remove();
             prevModalDialog.classList.add('show');
-            // prevModalDialog.style.display = 'block';
             prevModalDialog.classList.remove('hide');
             closeModal();
         }, 4000);
