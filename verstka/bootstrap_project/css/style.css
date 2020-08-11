@@ -1,0 +1,40 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+nav {
+    height: 50px;
+    background-color: #212121;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style: none;
+}
+.menu .menu_link {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+}
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader {
+    height: 84px;
+    background-color:rgba(0, 0, 0, .6);
+}
+
+.subheader .subheader_logo {
+    max-width: 100%;
+}
+
+.subheader .subheader_official {
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: "Roboto - Thin";
+    font-size: 13px;
+    font-weight: 400;                                           
+}
