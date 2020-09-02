@@ -7,6 +7,8 @@ import showMoreStyles from './modules/showMoreStyles';
 import calc from './modules/calc';
 import filter from './modules/filter';
 // import filterTest from './modules/filter_test';
+import pictureSize from './modules/pictureSize';
+// import pictureSizedTest from './modules/pictureSizedTest';
 
 window.addEventListener('DOMContentLoaded', () => {
     'use strict';
@@ -22,4 +24,6 @@ window.addEventListener('DOMContentLoaded', () => {
     calc('#size', '#material', '#options', '.promocode', '.calc-price');
     filter();
     // filterTest();
+    pictureSize('.sizes-block');
+    // pictureSizedTest('.sizes-block');
 });
