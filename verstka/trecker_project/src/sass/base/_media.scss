@@ -109,3 +109,57 @@
         }
     }
 }
+@media (min-width: 576px) and (max-width: 767px) {
+    .container {
+        min-width: 85%;
+        max-width: 655px;
+    }
+    .header {
+        &__official {
+            font-size: 15px;
+        }
+        &__logo {
+            width: 190px;
+        }
+        &__phone {
+            font-size: 16px;
+        }
+    }
+    .button {
+        width: 144px;
+        height: 23px;
+        font-size: 14px;
+        &_main {
+            width: 150px;
+            height: 50px;
+            font-size: 17px;
+        }
+    }
+    .promo {
+        min-height: 570px;
+        padding: 21px 0 0 0 ;
+        &__icons {
+            width: 510px;
+            .promo__icon {
+                width: 140px;
+                font-size: 17px;
+            }
+        }
+        &__wrapper {
+            align-items: center;
+            margin-top: 30px;
+        }
+        &__header {
+            font-size: 35px;
+            line-height: 35px;
+        }
+        &__subheader {
+            font-size: 25px;
+            margin-top: 7px;
+            line-height: 25px;
+        }
+    }
+    .advantages {
+        padding: 50px 0 50px 0;
+    }
+}
