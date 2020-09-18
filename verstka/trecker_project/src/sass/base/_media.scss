@@ -25,6 +25,12 @@
             height: 60px;
             font-size: 23px;
         }
+        &_subbmit {
+            width: 100%;
+            height: 55px;
+            background-color: #c70101;
+            font-size: 16px;
+        }
     }
     .promo {
         &__header {
@@ -112,23 +118,26 @@
 @media (min-width: 576px) and (max-width: 767px) {
     .container {
         min-width: 85%;
-        max-width: 655px;
+        max-width: 530px;
     }
     .header {
         &__official {
-            font-size: 15px;
+            font-size: 13px;
+            span {
+                font-size: 17px;
+            }
         }
         &__logo {
-            width: 190px;
+            width: 180px;
         }
         &__phone {
-            font-size: 16px;
+            font-size: 15px;
         }
     }
     .button {
-        width: 144px;
+        width: 137px;
         height: 23px;
-        font-size: 14px;
+        font-size: 13px;
         &_main {
             width: 150px;
             height: 50px;
@@ -141,7 +150,7 @@
         &__icons {
             width: 510px;
             .promo__icon {
-                width: 140px;
+                width: 160px;
                 font-size: 17px;
             }
         }
@@ -150,16 +159,31 @@
             margin-top: 30px;
         }
         &__header {
-            font-size: 35px;
-            line-height: 35px;
+            font-size: 30px;
+            line-height: 30px;
         }
         &__subheader {
-            font-size: 25px;
+            font-size: 20px;
             margin-top: 7px;
-            line-height: 25px;
+            line-height: 20px;
         }
     }
     .advantages {
         padding: 50px 0 50px 0;
+        &__wrapper {
+            margin-top: 39px;
+            min-height: 300px;
+        }
+        &__subtitle {
+            font-size: 14px;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+        &__item > img {
+            width: 80px;
+            height: 80px;
+        }
     }
+
 }
