@@ -66,6 +66,11 @@
     }
 }
 @media (min-width: 992px) and (max-width: 1199.98px){
+    .consultation {
+        .container {
+            max-width: 880px;
+        }
+    }
     .container {
         width: 992px;
     }
@@ -84,6 +89,16 @@
     }
 }
 @media (min-width: 768px) and (max-width: 991.98px){
+    .consultation {
+        .container {
+            max-width: 670px;
+        }
+        .title {
+            &_left {
+                font-size: 30px;
+            }
+        }
+    }
     .container {
         width: 768px;
     }
@@ -110,12 +125,29 @@
         }
     }
     .advantages {
+        padding: 70px 0 0 0 ;
         &__wrapper {
             justify-content: space-around;
         }
     }
 }
 @media (min-width: 576px) and (max-width: 767px) {
+    .consultation {
+        .container {
+            max-width: 490px;
+        }
+        .title {
+            &_left {
+                font-size: 20px;
+            }
+        }
+        .button {
+            &_subbmit {
+                width: 100%;
+                height: 50px;
+            }
+        }
+    }
     .container {
         min-width: 85%;
         max-width: 530px;
