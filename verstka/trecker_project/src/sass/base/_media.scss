@@ -82,7 +82,7 @@
         }
     }
     .container {
-        width: 992px;
+        width: 880px;
     }
     .header {
         &__official {
@@ -105,9 +105,6 @@
 }
 @media (min-width: 768px) and (max-width: 991.98px){
     .consultation {
-        .container {
-            max-width: 670px;
-        }
         .title {
             &_left {
                 font-size: 30px;
@@ -115,7 +112,7 @@
         }
     }
     .container {
-        width: 768px;
+        width: 670px;
     }
     .header {
         justify-content: space-around;
@@ -150,15 +147,17 @@
             justify-content: space-around;
         }
     }
+    .reviews {
+        &__img{
+            margin-top: 50px;
+        }
+    }
 }
 @media (min-width: 576px) and (max-width: 767px) {
     .container {
         width: 530px;
     }
     .consultation {
-        .container {
-            max-width: 530px;
-        }
         .title {
             &_left {
                 font-size: 20px;
@@ -242,7 +241,7 @@
     .carousel {
         padding: 25px 0;
         &__inner {
-            width: 520px;
+            width: 500px;
             height: 100%;
             img {
                 width: 100%;
@@ -267,6 +266,30 @@
         }
         &-item {
             width: 350px;
+        }
+    }
+    .reviews {
+        .title {
+            font-size: 27px;
+            margin-bottom: 40px;
+        }
+        &-item {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__img {
+            margin-right: 0px;
+        }
+        &__story {
+            text-align: center;
+        }
+        &__name {
+            margin-top: 15px;
+            text-align: center;
+        }
+        &__status {
+            text-align: center;
         }
     }
 }
