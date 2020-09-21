@@ -69,6 +69,11 @@
             font-size: 20px;
         }
     }
+    .catalog {
+        &__content {
+            justify-content: space-around;
+        }
+    }
 }
 @media (min-width: 992px) and (max-width: 1199.98px){
     .consultation {
@@ -90,6 +95,11 @@
         font-size: 14px;
         &_main {
             font-size: 18px;
+        }
+    }
+    .catalog {
+        &__content {
+            justify-content: space-around;
         }
     }
 }
@@ -135,11 +145,19 @@
             justify-content: space-around;
         }
     }
+    .catalog {
+        &__content {
+            justify-content: space-around;
+        }
+    }
 }
 @media (min-width: 576px) and (max-width: 767px) {
+    .container {
+        width: 530px;
+    }
     .consultation {
         .container {
-            max-width: 490px;
+            max-width: 530px;
         }
         .title {
             &_left {
@@ -152,10 +170,6 @@
                 height: 50px;
             }
         }
-    }
-    .container {
-        min-width: 85%;
-        max-width: 530px;
     }
     .header {
         &__official {
@@ -206,6 +220,9 @@
         }
     }
     .advantages {
+        .title {
+            font-size: 27px;
+        }
         padding: 50px 0 50px 0;
         &__wrapper {
             margin-top: 39px;
@@ -222,5 +239,34 @@
             height: 80px;
         }
     }
-
+    .carousel {
+        padding: 25px 0;
+        &__inner {
+            width: 520px;
+            height: 100%;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+    .catalog {
+        .title {
+            font-size: 27px;
+        }
+        &__content {
+            justify-content: center;
+        }
+        &__tabs {
+            margin-top: 35px;
+        }
+        &__tab {
+            width: 160px;
+            font-size: 16px;
+        }
+        &-item {
+            width: 350px;
+        }
+    }
 }

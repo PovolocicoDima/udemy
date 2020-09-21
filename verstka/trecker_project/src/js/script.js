@@ -5,7 +5,7 @@ $(document).ready(function(){
       speed: 1000,
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 4000,
       prevArrow: '<button type="button" class="slick-prev"><img src="../icons/arrow-left.svg"></button>',
       nextArrow: '<button type="button" class="slick-next"><img src="../icons/arrow-right.svg"></button>',
@@ -13,25 +13,27 @@ $(document).ready(function(){
       arrows: true,
       responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 992,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
-            infinite: true,
+            arrows: true
           }
         },
         {
-          breakpoint: 600,
+          breakpoint: 768,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
+            arrows: false
           }
         },
         {
-          breakpoint: 480,
+          breakpoint: 576,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
+            arrows: false
           }
         }
       ]
