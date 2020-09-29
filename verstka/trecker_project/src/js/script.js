@@ -13,7 +13,7 @@ $(document).ready(function(){
       arrows: true,
       responsive: [
         {
-          breakpoint: 992,
+          breakpoint: 991.9,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -21,7 +21,7 @@ $(document).ready(function(){
           }
         },
         {
-          breakpoint: 768,
+          breakpoint: 767.9,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -29,7 +29,7 @@ $(document).ready(function(){
           }
         },
         {
-          breakpoint: 576,
+          breakpoint: 575.9,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
