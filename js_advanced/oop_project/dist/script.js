@@ -5086,12 +5086,14 @@ function () {
   function Difference(oldOfficer, newOfficer, items) {
     _classCallCheck(this, Difference);
 
-    this.oldOfficer = document.querySelector(oldOfficer);
-    this.newOfficer = document.querySelector(newOfficer);
-    this.oldItems = this.oldOfficer.querySelectorAll(items);
-    this.newItems = this.newOfficer.querySelectorAll(items);
-    this.oldCounter = 0;
-    this.newCounter = 0;
+    try {
+      this.oldOfficer = document.querySelector(oldOfficer);
+      this.newOfficer = document.querySelector(newOfficer);
+      this.oldItems = this.oldOfficer.querySelectorAll(items);
+      this.newItems = this.newOfficer.querySelectorAll(items);
+      this.oldCounter = 0;
+      this.newCounter = 0;
+    } catch (e) {}
   }
 
   _createClass(Difference, [{
@@ -5119,10 +5121,12 @@ function () {
   }, {
     key: "init",
     value: function init() {
-      this.hideItems(this.oldItems);
-      this.hideItems(this.newItems);
-      this.bindTriggers(this.oldOfficer, this.oldItems, this.oldCounter);
-      this.bindTriggers(this.newOfficer, this.newItems, this.newCounter);
+      try {
+        this.hideItems(this.oldItems);
+        this.hideItems(this.newItems);
+        this.bindTriggers(this.oldOfficer, this.oldItems, this.oldCounter);
+        this.bindTriggers(this.newOfficer, this.newItems, this.newCounter);
+      } catch (e) {}
     }
   }]);
 
@@ -5518,21 +5522,23 @@ function (_Slider) {
       var _this2 = this;
 
       try {
-        this.hanson = document.querySelector('.hanson');
+        try {
+          this.hanson = document.querySelector('.hanson');
+        } catch (e) {}
+
+        this.btns.forEach(function (item) {
+          item.addEventListener('click', function () {
+            _this2.plusSlides(1);
+          });
+          item.parentNode.previousElementSibling.addEventListener('click', function (e) {
+            e.preventDefault();
+            _this2.slideIndex = 1;
+
+            _this2.showSlides(_this2.slideIndex);
+          });
+        });
+        this.showSlides(this.slideIndex);
       } catch (e) {}
-
-      this.btns.forEach(function (item) {
-        item.addEventListener('click', function () {
-          _this2.plusSlides(1);
-        });
-        item.parentNode.previousElementSibling.addEventListener('click', function (e) {
-          e.preventDefault();
-          _this2.slideIndex = 1;
-
-          _this2.showSlides(_this2.slideIndex);
-        });
-      });
-      this.showSlides(this.slideIndex);
     }
   }]);
 
@@ -5708,22 +5714,24 @@ function (_Slider) {
     value: function init() {
       var _this4 = this;
 
-      this.container.style.cssText = "\n            display: flex;\n            overflow: hidden;\n            align-items: flex-start;\n            flex-wrap: wrap;\n        ";
-      this.bindTriggers();
-      this.decorizeSlides();
+      try {
+        this.container.style.cssText = "\n            display: flex;\n            overflow: hidden;\n            align-items: flex-start;\n            flex-wrap: wrap;\n        ";
+        this.bindTriggers();
+        this.decorizeSlides();
 
-      if (this.autoplay) {
-        this.autoplayGo();
-        this.slides[0].parentNode.addEventListener('mouseleave', function () {
-          _this4.autoplayGo();
-        });
-        this.next.parentNode.addEventListener('mouseleave', function () {
-          _this4.autoplayGo();
-        });
-        this.prev.parentNode.addEventListener('mouseleave', function () {
-          _this4.autoplayGo();
-        });
-      }
+        if (this.autoplay) {
+          this.autoplayGo();
+          this.slides[0].parentNode.addEventListener('mouseleave', function () {
+            _this4.autoplayGo();
+          });
+          this.next.parentNode.addEventListener('mouseleave', function () {
+            _this4.autoplayGo();
+          });
+          this.prev.parentNode.addEventListener('mouseleave', function () {
+            _this4.autoplayGo();
+          });
+        }
+      } catch (e) {}
     }
   }]);
 
@@ -5764,7 +5772,11 @@ var Slider = function Slider() {
   _classCallCheck(this, Slider);
 
   this.container = document.querySelector(container);
-  this.slides = this.container.children;
+
+  try {
+    this.slides = this.container.children;
+  } catch (e) {}
+
   this.btns = document.querySelectorAll(btns);
   this.next = document.querySelector(next);
   this.prev = document.querySelector(prev);
