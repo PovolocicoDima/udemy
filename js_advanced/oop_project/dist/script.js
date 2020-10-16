@@ -5031,8 +5031,8 @@ window.addEventListener('DOMContentLoaded', function () {
   var modulePageSlider = new _modules_slider_slider_main__WEBPACK_IMPORTED_MODULE_0__["default"]({
     container: '.moduleapp',
     btns: '.next',
-    next: '.nextmodule',
-    prev: '.prevmodule'
+    next2: '.nextmodule',
+    prev2: '.prevmodule'
   });
   modulePageSlider.render();
   var showUp = new _modules_slider_slider_mini__WEBPACK_IMPORTED_MODULE_1__["default"]({
@@ -5479,10 +5479,20 @@ var MainSlider =
 function (_Slider) {
   _inherits(MainSlider, _Slider);
 
-  function MainSlider(btns) {
+  function MainSlider(_ref) {
+    var btns = _ref.btns,
+        container = _ref.container,
+        prev2 = _ref.prev2,
+        next2 = _ref.next2;
+
     _classCallCheck(this, MainSlider);
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(MainSlider).call(this, btns));
+    return _possibleConstructorReturn(this, _getPrototypeOf(MainSlider).call(this, {
+      btns: btns,
+      container: container,
+      prev2: prev2,
+      next2: next2
+    }));
   }
 
   _createClass(MainSlider, [{
@@ -5539,7 +5549,7 @@ function (_Slider) {
           _this2.showSlides(_this2.slideIndex);
         });
       });
-      document.querySelectorAll('.prevmodule').forEach(function (item) {
+      this.prev2.forEach(function (item) {
         item.addEventListener('click', function (e) {
           e.stopPropagation();
           e.preventDefault();
@@ -5547,7 +5557,7 @@ function (_Slider) {
           _this2.plusSlides(-1);
         });
       });
-      document.querySelectorAll('.nextmodule').forEach(function (item) {
+      this.next2.forEach(function (item) {
         item.addEventListener('click', function (e) {
           e.stopPropagation();
           e.preventDefault();
@@ -5792,6 +5802,10 @@ var Slider = function Slider() {
       next = _ref$next === void 0 ? null : _ref$next,
       _ref$prev = _ref.prev,
       prev = _ref$prev === void 0 ? null : _ref$prev,
+      _ref$prev2 = _ref.prev2,
+      prev2 = _ref$prev2 === void 0 ? null : _ref$prev2,
+      _ref$next2 = _ref.next2,
+      next2 = _ref$next2 === void 0 ? null : _ref$next2,
       _ref$activeClass = _ref.activeClass,
       activeClass = _ref$activeClass === void 0 ? '' : _ref$activeClass,
       animate = _ref.animate,
@@ -5808,6 +5822,8 @@ var Slider = function Slider() {
   this.btns = document.querySelectorAll(btns);
   this.next = document.querySelector(next);
   this.prev = document.querySelector(prev);
+  this.prev2 = document.querySelectorAll(prev2);
+  this.next2 = document.querySelectorAll(next2);
   this.activeClass = activeClass;
   this.animate = animate;
   this.autoplay = autoplay;
