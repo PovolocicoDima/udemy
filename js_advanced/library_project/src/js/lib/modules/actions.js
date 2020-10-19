@@ -20,18 +20,6 @@ $.prototype.off = function(eventName, callback) {
     return this;
 };
 
-
-$.prototype.off = function(eventName, callback) {
-    if (!eventName || !callback) {
-        return this;
-    }
-    for (let i = 0; i < this.length; i++) {
-        this[i].removeEventListener(eventName, callback);
-    }
-    return this;
-};
-
-
 $.prototype.click = function(handler) {
     for (let i = 0; i < this.length; i++) {
         if (handler) {
