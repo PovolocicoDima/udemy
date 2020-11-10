@@ -3,7 +3,8 @@ import {Col, Row, Container} from 'reactstrap';
 import Header from '../header';
 import RandomChar from '../randomChar';
 import ItemList from '../itemList';
-import CharDetails from '../charDetails';
+import ErrorMessage from '../errorMessage';
+import PersonalDetails from '../personalDetails';
 
 
 const App = () => {
@@ -23,7 +24,7 @@ const App = () => {
                         <ItemList />
                     </Col>
                     <Col md='6'>
-                        <CharDetails />
+                        <PersonalDetails />
                     </Col>
                 </Row>
             </Container>
