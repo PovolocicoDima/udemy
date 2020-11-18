@@ -31,9 +31,9 @@ export default class ItemAddForm extends Component {
         <input type="text"
                className="form-control"
                onChange={ this.onLabelChange }
+               placeholder="What needs to be done"
               //  to check fields value for clearing it
-               value={ this.state.label }
-               placeholder="What needs to be done"/>
+               value={ this.state.label } />
         <button
           className="btn btn-outline-secondary">
           Add Item
