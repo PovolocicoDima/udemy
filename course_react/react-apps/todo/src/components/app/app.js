@@ -41,6 +41,7 @@ export default class App extends Component {
       return {
         todoData: newArray
       };
+<<<<<<< HEAD
     });
   };
 
@@ -61,6 +62,24 @@ export default class App extends Component {
         todoData: newArr
       };
     });
+=======
+    });
+  };
+
+  addItem = (text) => {
+    const newItem = this.createTodoItem(text);
+
+    this.setState(({ todoData }) => {
+      const newArr = [
+        ...todoData,
+        newItem
+      ];
+
+      return {
+        todoData: newArr
+      };
+    });
+>>>>>>> 6a7c04b9f3a8b2876a78ca022e61bfdda167f133
 
   };
 
@@ -115,8 +134,11 @@ export default class App extends Component {
           onToggleImportant={this.onToggleImportant}
           onToggleDone={this.onToggleDone}
         />
+<<<<<<< HEAD
 
         <ItemAddForm onItemAdded={this.addItem}/>
+=======
+>>>>>>> 6a7c04b9f3a8b2876a78ca022e61bfdda167f133
       </div>
     );
   }
