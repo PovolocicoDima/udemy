@@ -2,9 +2,10 @@ import React, {Component} from 'react';
 import PersonDetails from '../person-details';
 import ItemList from '../item-list';
 import SwapiService from '../../services/swapi-service';
+import Errorindicator from '../error-indicator';
+import Row from '../row';
 
 import './people-page.css';
-import Errorindicator from '../error-indicator';
 
 
 export default class PeoplePage extends Component {
@@ -33,17 +34,19 @@ export default class PeoplePage extends Component {
             return <Errorindicator />
         }
 
+        const itemList = (
+            <ItemList 
+            OnItemSelected={ this.onPersoneSelected }
+            getData={ this.swapiService.getAllPeople }
+            renderItems={ ({ name, gender, birthYear }) => `${name} (${gender}, ${birthYear})` }/>
+        );
+
+        const personDetails = (
+            <PersonDetails personId={ this.state.selectedPerson }/>
+        );
+
         return (
-            <div className="row mb2">
-                <div className="col-md-6">
-                    <ItemList 
-                        OnItemSelected={ this.onPersoneSelected }
-                        getData={ this.swapiService.getAllPeople }/>
-                </div>
-            <div className="col-md-6">
-                <PersonDetails personId={ this.state.selectedPerson }/>
-                </div>
-            </div>
+            <Row left={itemList} right={personDetails} />
         )
     }
 }
