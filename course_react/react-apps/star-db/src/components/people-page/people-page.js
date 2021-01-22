@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import PersonDetails from '../person-details';
 import ItemList from '../item-list';
 import SwapiService from '../../services/swapi-service';
 import Errorindicator from '../error-indicator';
@@ -38,14 +37,14 @@ export default class PeoplePage extends Component {
             </ItemList>
         );
 
-        const personDetails = (
+        const ItemDetails = (
             <ErrorBoundry>
-                <PersonDetails personId={ this.state.selectedPerson }/>
+                <ItemDetails personId={ this.state.selectedPerson }/>
             </ErrorBoundry>
         );
 
         return (
-            <Row left={itemList} right={personDetails} />
+            <Row left={itemList} right={ItemDetails} />
         )
     }
 }
