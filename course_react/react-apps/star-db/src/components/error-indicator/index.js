@@ -1,3 +1,3 @@
-import Errorindicator from './error-indicator';
+import ErrorIndicator from './error-indicator';
 
-export default Errorindicator;
+export default ErrorIndicator;
