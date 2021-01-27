@@ -41,11 +41,11 @@ export default class SwapiService {
     const res = await this.getResource(`/starships/`);
     return res.results
       .map(this._transformStarship)
-      .slice(5, 10);
+      .slice(4, 9);
   };
 
   getStarship = async (id) => {
-    const starship = this.getResource(`/starships/${id}/`);
+    const starship = await this.getResource(`/starships/${id}/`);
     return this._transformStarship(starship);
   };
 
