@@ -28,16 +28,10 @@
           font-size: 24px;
       }
       &-img {
-          height: 125px;
-          width: 250px;
-          margin: 0 auto;
-          object-fit: cover;
-      }
-      &-Img {
-        overflow: hidden;
-        width: 100%;
-        max-height: 400px;
-      }
+        height: 125px;
+        width: 250px;
+        object-fit: cover;
+    }
   }
   &__close {
       position: absolute;

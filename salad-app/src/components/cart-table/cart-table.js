@@ -13,9 +13,7 @@ const CartPage = ({items, onDelete}) => {
             const {title, price, url, id} = item;
             return (
               <div key={id} className="cart__item">
-                <div className="cart__item-Img">
                   <img className="cart_item-img" src={url} alt={title}></img>
-                </div>
                 <div className="cart__item-title">{title}</div>
                 <div className="cart__item-price">{price}$</div>
                 <div onClick={() => onDelete(id)}
