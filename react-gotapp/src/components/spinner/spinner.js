@@ -3,8 +3,8 @@ import './spinner.css';
 
 const Spinner = () => {
     return (
-        <div class="loadingio-spinner-spinner-f1kh8glmjl"><div class="ldio-xd0uupykpn">
-            <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+        <div className="lds-css ng-scope">
+            <div className="lds-spin"><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div></div>
         </div>
     )
 }
