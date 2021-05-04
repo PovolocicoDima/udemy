@@ -20,6 +20,6 @@ export class UsersController {
   @ApiResponse({status: 200, type: [User] })
   @Get()
   getAll() {
-    return this.userService.getAll();
+    return this.userService.getAllUsers();
   }
 }
