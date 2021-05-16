@@ -2,13 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa0e9e65-915d-48f9-b232-7c66d4ca2452" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../node_JS/node_js_for_begginers" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bird.js" beforeDir="false" afterPath="$PROJECT_DIR$/../js/bird.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../division.js" beforeDir="false" afterPath="$PROJECT_DIR$/../js/division.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../examples.js" beforeDir="false" afterPath="$PROJECT_DIR$/../js/examples.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../photo_2021-04-23_13-19-20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../js/photo_2021-04-23_13-19-20.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practice.html" beforeDir="false" afterPath="$PROJECT_DIR$/../js/practice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practice.js" beforeDir="false" afterPath="$PROJECT_DIR$/../js/practice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_JS/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_JS/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/review/review.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/review/review.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/review/review.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/review/review.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/top-page/dto/create-top-page.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/top-page/dto/create-top-page.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/top-page/top-page.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/top-page/top-page.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/top-page/top-page.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/top-page/top-page.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/top-page/top-page.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/top-page/top-page.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/top-page/top-page.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/top-page/top-page.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/nest-cli.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/src/app.controller.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/src/app.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/src/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/src/app.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/src/products/dto/create-product.dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/src/products/dto/update-product.dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/src/products/products.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/src/products/products.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/src/products/products.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/src/products/schemas/product.schemas.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/test/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/test/jest-e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/tsconfig.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/tsconfig.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ts_project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react/react_tepescript_basic" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -47,6 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619588923053</updated>
       <workItem from="1619588924200" duration="69000" />
+      <workItem from="1620977546831" duration="57000" />
     </task>
     <servers />
   </component>

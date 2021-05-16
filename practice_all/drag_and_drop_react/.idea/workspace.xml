@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7e9991c2-ffcb-40c3-b247-d5c228e4ba41" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../node_JS/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_JS/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/review/review.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/review/review.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/review/review.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/review/review.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/top-page/dto/create-top-page.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/top-page/dto/create-top-page.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/top-page/top-page.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/top-page/top-page.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/top-page/top-page.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/top-page/top-page.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/top-page/top-page.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/top-page/top-page.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/top-page/top-page.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_JS/nestJS/top-api/src/top-page/top-page.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/nest-cli.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/src/app.controller.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/src/app.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/src/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/src/app.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/src/products/dto/create-product.dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/src/products/dto/update-product.dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/src/products/products.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/src/products/products.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/src/products/products.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/src/products/schemas/product.schemas.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/test/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/test/jest-e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/tsconfig.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nest-rest-api/tsconfig.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1sUGA37QNm0IQ6FSNjkvp3aueXJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e9991c2-ffcb-40c3-b247-d5c228e4ba41" name="Default Changelist" comment="" />
+      <created>1620919608515</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620919608515</updated>
+      <workItem from="1620919611206" duration="3777000" />
+      <workItem from="1620977134304" duration="222000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
