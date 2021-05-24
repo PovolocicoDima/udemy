@@ -2,42 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0247123b-ac2d-4773-8cc9-57d8e6bc9320" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../top-api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../top-api/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../top-api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../top-api/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../top-api/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../top-api/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../top-api/src/review/review.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../top-api/src/review/review.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../top-api/src/review/review.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../top-api/src/review/review.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../top-api/src/top-page/dto/create-top-page.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../top-api/src/top-page/dto/create-top-page.dto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../top-api/src/top-page/top-page.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../top-api/src/top-page/top-page.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../top-api/src/top-page/top-page.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../top-api/src/top-page/top-page.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../top-api/src/top-page/top-page.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../top-api/src/top-page/top-page.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../top-api/src/top-page/top-page.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../top-api/src/top-page/top-page.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../practice_all/js/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../practice_all/js/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../practice_all/nest-rest-api/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../practice_all/nest-rest-api/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../practice_all/nest-rest-api/.prettierrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../practice_all/nest-rest-api/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../practice_all/nest-rest-api/nest-cli.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../practice_all/nest-rest-api/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../practice_all/nest-rest-api/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../practice_all/nest-rest-api/src/app.controller.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../practice_all/nest-rest-api/src/app.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../practice_all/nest-rest-api/src/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../practice_all/nest-rest-api/src/app.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../practice_all/nest-rest-api/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../practice_all/nest-rest-api/src/products/dto/create-product.dto.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../practice_all/nest-rest-api/src/products/dto/update-product.dto.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../practice_all/nest-rest-api/src/products/products.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../practice_all/nest-rest-api/src/products/products.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../practice_all/nest-rest-api/src/products/products.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../practice_all/nest-rest-api/src/products/schemas/product.schemas.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../practice_all/nest-rest-api/test/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../practice_all/nest-rest-api/test/jest-e2e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../practice_all/nest-rest-api/tsconfig.build.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../practice_all/nest-rest-api/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../practice_all/typescript_basics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../practice_all/typescript_basics/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button/Button.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Button/Button.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button/Button.props.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Htag/Htag.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/Htag/Htag.props.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Htag/Htag.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Htag/Htag.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +25,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1sYxu6UHUPvp6h4yFNir9G7rbHd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -62,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/layout/Menu" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -75,6 +62,18 @@
     <property name="settings.editor.selected.configurable" value="configurable.stylesheets.stylelint" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/layout/Menu" />
+      <recent name="$PROJECT_DIR$/layout/Footer" />
+      <recent name="$PROJECT_DIR$/layout/Header" />
+      <recent name="$PROJECT_DIR$/layout/Sidebar" />
+      <recent name="$PROJECT_DIR$/layout" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/helpers" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -91,6 +90,14 @@
       <workItem from="1621085332272" duration="2489000" />
       <workItem from="1621157466688" duration="16000" />
       <workItem from="1621179307618" duration="2877000" />
+      <workItem from="1621334737699" duration="9959000" />
+      <workItem from="1621390786913" duration="4542000" />
+      <workItem from="1621419398397" duration="2701000" />
+      <workItem from="1621508058438" duration="2467000" />
+      <workItem from="1621510696063" duration="8514000" />
+      <workItem from="1621537603546" duration="1430000" />
+      <workItem from="1621591440464" duration="5664000" />
+      <workItem from="1621852836974" duration="1209000" />
     </task>
     <servers />
   </component>
