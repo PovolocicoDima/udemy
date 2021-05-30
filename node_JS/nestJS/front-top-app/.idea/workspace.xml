@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0247123b-ac2d-4773-8cc9-57d8e6bc9320" name="Default Changelist" comment="">
+    <list default="true" id="0247123b-ac2d-4773-8cc9-57d8e6bc9320" name="Default Changelist" comment="setup sort for top-project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Htag/Htag.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Htag/Htag.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/helper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/helper.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/page.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/page.interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Layout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/Sidebar/Sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Sidebar/Sidebar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-components/TopPageComponent/TopPageComponent.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/page-components/TopPageComponent/TopPageComponent.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-components/TopPageComponent/TopPageComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/page-components/TopPageComponent/TopPageComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/Sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Sidebar/Sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +49,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettier.import.notification.dismissed" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="configurable.stylesheets.stylelint" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -94,8 +89,26 @@
       <workItem from="1621591440464" duration="5664000" />
       <workItem from="1621852836974" duration="2171000" />
       <workItem from="1621909285250" duration="8955000" />
-      <workItem from="1622100359288" duration="4031000" />
+      <workItem from="1622100359288" duration="6050000" />
+      <workItem from="1622114170464" duration="2915000" />
+      <workItem from="1622280105211" duration="63000" />
+      <workItem from="1622280185288" duration="3000" />
     </task>
+    <task id="LOCAL-00001" summary="setup sort for top-project">
+      <created>1622107218809</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622107218809</updated>
+    </task>
+    <task id="LOCAL-00002" summary="setup sort for top-project">
+      <created>1622107407147</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1622107407147</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +125,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="setup sort for top-project" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup sort for top-project" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
