@@ -20,7 +20,7 @@ export const Product = ({ product, className, ...props }: ProductProps): JSX.Ele
 		setIsReviewOpened(true);
 		reviewRef.current?.scrollIntoView({
 			behavior: 'smooth',
-			block: 'start'
+			block: 'center'
 		});
 	};
 
@@ -43,13 +43,27 @@ export const Product = ({ product, className, ...props }: ProductProps): JSX.Ele
 				<div className={styles.credit}>
 					{priceRu(product.credit)}/<span className={styles.month}>мес</span>
 				</div>
-				<div className={styles.rating}><Rating rating={product.reviewAvg ?? product.initialRating} /></div>
-				<div className={styles.tags}>{product.categories.map(c => <Tag key={c} className={styles.category} color='ghost'>{c}</Tag>)}</div>
+				<div className={styles.rating}>
+					<Rating rating={product.reviewAvg ?? product.initialRating} />
+				</div>
+				<div
+					className={styles.tags}>
+					{product.categories.map(c =>
+						<Tag key={c} className={styles.category} color='ghost'>{c}</Tag>)}
+				</div>
 				<div className={styles.priceTitle}>цена</div>
 				<div className={styles.creditTitle}>кредит</div>
-				<div className={styles.rateTitle}><a href="#ref" onClick={scrollToReview}>{product.reviewCount} {declOfNum(product.reviewCount, ['отзыв', 'отзыва', 'отзывов'])}</a></div>
+				<div className={styles.rateTitle}>
+					<a
+						href="#ref"
+						onClick={scrollToReview}>
+						{product.reviewCount} {declOfNum(product.reviewCount, ['отзыв', 'отзыва', 'отзывов'])}
+					</a>
+				</div>
 				<Divider className={styles.hr} />
-				<div className={styles.description}>{product.description}</div>
+				<div className={styles.description}>
+					{product.description}
+				</div>
 				<div className={styles.feature}>
 					{product.characteristics.map(c => (
 						<div className={styles.characteristics} key={c.name}>
