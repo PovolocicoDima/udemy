@@ -45,22 +45,38 @@ export const Product = motion(forwardRef(({ product, className, ...props }: Prod
 				</div>
 				<div className={styles.title}>{product.title}</div>
 				<div className={styles.price}>
-					{priceRu(product.price)}
-					{product.oldPrice && <Tag className={styles.oldPrice} color="green">{priceRu(product.price - product.oldPrice)}</Tag>}
+					<span>
+						<span className='visuallyHIdden'>Цена</span>
+						{priceRu(product.price)}
+					</span>
+					{product.oldPrice &&
+						<Tag
+							className={styles.oldPrice}
+							color="green">
+							<span className='visuallyHIdden'>скидка</span>
+							{priceRu(product.price - product.oldPrice)}
+						</Tag>}
 				</div>
 				<div className={styles.credit}>
 					{priceRu(product.credit)}/<span className={styles.month}>мес</span>
 				</div>
 				<div className={styles.rating}>
+					<span className='visuallyHIdden'>
+						{'рэйтинг' + (product.reviewAvg ?? product.initialRating)}
+					</span>
 					<Rating rating={product.reviewAvg ?? product.initialRating} />
 				</div>
 				<div
 					className={styles.tags}>
 					{product.categories.map(c =>
-						<Tag key={c} className={styles.category} color='ghost'>{c}</Tag>)}
+						<Tag
+							key={c} className={styles.category}
+							color='ghost'>
+							{c}
+						</Tag>)}
 				</div>
-				<div className={styles.priceTitle}>цена</div>
-				<div className={styles.creditTitle}>кредит</div>
+				<div className={styles.priceTitle} aria-hidden={true}>цена</div>
+				<div className={styles.creditTitle} aria-hidden={true}>кредит</div>
 				<div className={styles.rateTitle}>
 					<a
 						href="#ref"
@@ -95,11 +111,14 @@ export const Product = motion(forwardRef(({ product, className, ...props }: Prod
 				<div className={styles.actions}>
 					<Button appearance='primary'>Узнать подробнее</Button>
 					<Button
+						aria-expanded={isReviewOpened}
 						appearance='ghost'
 						arrow={isReviewOpened ? 'down' : 'right'}
 						className={styles.reviewButton}
 						onClick={() => setIsReviewOpened(!isReviewOpened)}
-					>Читать отзывы</Button>
+					>
+						Читать отзывы
+					</Button>
 				</div>
 			</Card>
 			<motion.div
