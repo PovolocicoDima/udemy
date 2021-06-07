@@ -10,6 +10,7 @@ import { useReducedMotion } from 'framer-motion';
 
 export const TopPageComponent = ({ page, products, firstCategory }: TopPageComponentProps): JSX.Element => {
 	const [{ products: sortedProducts, sort }, dispathSort] = useReducer(sortReducer, { products, sort: SortEnum.Rating });
+
 	const shouldReduceMotion = useReducedMotion();
 
 	const setSort = (sort: SortEnum) => {
