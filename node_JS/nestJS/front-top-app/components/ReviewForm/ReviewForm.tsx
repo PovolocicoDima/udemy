@@ -75,7 +75,7 @@ export const ReviewForm = ({ productId, isOpened, className, ...props }: ReviewF
 					className={styles.description}
 					error={errors.description}
 					tabIndex={isOpened ? 0 : -1}
-					aria-labeled='Текст отзыва'
+					aria-label='Текст отзыва'
 					aria-invalid={errors.description ? true : false}
 				/>
 				<div className={styles.submit}>

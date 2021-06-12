@@ -47,7 +47,7 @@ export const Rating = forwardRef(({ isEditable = false, error, rating, setRating
 					aria-valuenow={rating}
 					aria-valuemax={5}
 					aria-valuemin={1}
-					aria-labeled={isEditable ? 'Укажите рейтинг' : ('рейтинг' + rating)}
+					aria-label={isEditable ? 'Укажите рейтинг' : ('рейтинг' + rating)}
 					aria-invalid={error ? true : false}
 				>
 					<StarIcon />

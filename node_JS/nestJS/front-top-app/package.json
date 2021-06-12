@@ -5,6 +5,7 @@
   "scripts": {
 	"prepare" : "cd ~/udemy && husky install node_JS/nestJS/front-top-app",
     "dev": "next dev",
+    "export": "next export",
     "debug": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start",
