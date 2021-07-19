@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Mate+SC&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  align-self: center;
+}
+
+body {
+  font-family: "Mate SC", serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100vh;
+  background: rgb(172, 148, 148);
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  padding: 0 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide {
+  height: 80vh;
+  border-radius: 20px;
+  margin: 10px;
+  cursor: pointer;
+  color: rgb(243, 233, 233);
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+
+.slide h3 {
+  position: absolute;
+  font-size: 24px;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+}
+
+.slide.active {
+  flex: 10;
+}
+
+.slide.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.5s;
+}

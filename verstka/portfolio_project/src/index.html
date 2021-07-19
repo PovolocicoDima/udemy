@@ -42,16 +42,25 @@
   <meta name="msapplication-TileImage" content="icons/favicon//ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
+  <script type="text/javascript"
+          src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function(){
+      emailjs.init("user_okOr7QhJ3o8D38jccboGp");
+    })();
+  </script>
+  <script src="js/send.js"></script>
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
 
   <aside class="sidepanel">
-    <a href="" class="sidepanel__link"><img src="icons/social/facebook.svg" alt=""></a>
-    <a href="" class="sidepanel__link"><img src="icons/social/instagram.svg" alt=""></a>
-    <a href="" class="sidepanel__link"><img src="icons/social/github.svg" alt=""></a>
+    <a href="https://www.facebook.com/povolocico/" class="sidepanel__link" target="_blank"><img src="icons/social/fb_black.svg" alt="facebook"></a>
+    <a href="https://t.me/deletelol" class="sidepanel__link" target="_blank"><img src="icons/social/telegram.svg" alt="telegram"></a>
+    <a href="https://vk.com/povolocico" class="sidepanel__link" target="_blank"><img src="icons/social/vk.svg" alt="vkontakte"></a>
     <div class="sidepanel__divider"></div>
-    <div class="sidepanel__text"><span>Социальные сети</span></div>
+    <div class="sidepanel__text"><span>Social networks</span></div>
   </aside>
 
   <div class="menu">
@@ -61,11 +70,10 @@
       </div>
       <nav>
         <ul class="menu__list">
-          <li class="menu__link"><a href="#">ПРО МЕНЯ</a></li>
-          <li class="menu__link"><a href="#"></a>МОЙ ОПЫТ</li>
-          <li class="menu__link"><a href="#"></a>МОИ НАВЫКИ</li>
-          <li class="menu__link"><a href="#"></a>МОИ РАБОТЫ</li>
-          <li class="menu__link"><a href="#"></a>ПРАЙС-ЛИСТ</li>
+          <li class="menu__link"><a href="#">About me</a></li>
+          <li class="menu__link"><a href="#"></a>My experience</li>
+          <li class="menu__link"><a href="#"></a>My skills</li>
+          <li class="menu__link"><a href="#"></a>My pet-projects</li>
           <li class="menu__link"><a href="#"></a>КОНТАКТЫ</li>
         </ul>
       </nav>
@@ -86,11 +94,11 @@
       <span></span>
     </div>
     <div class="container">
-      <div class="title title_fz16 promo__subtitle">Меня зовут Поволочко Дмитрий</div>
-      <h1 class="title title_fz48l promo__title">Я web-разработчик <br> из города Кишинёв</h1>
+      <div class="title title_fz16 promo__subtitle">My name is Povolocico Dmitrii</div>
+      <h1 class="title title_fz48l promo__title">I am Front end developer <br> from Chisinau</h1>
       <div class="promo__btns">
-        <a href="#" class="promo__link btn">Портфолио</a>
-        <a href="#" class="promo__link">Про меня</a>
+        <a href="#" class="promo__link btn">My Projects</a>
+        <a href="#" class="promo__link">About me</a>
       </div>
     </div>
   </section>
@@ -102,10 +110,11 @@
           <img src="img/about-me.jpg" alt="photo">
         </div>
         <div class="about__descr">
-          <h2 class="title title_fz16 about__title">Про меня</h2>
-          <div class="about__subtitle title title_fz36">Меня зовут Дмитрий</div>
+          <h2 class="title title_fz16 about__title">About me</h2>
+          <div class="about__subtitle title title_fz36">My name is Dmitrii</div>
           <div class="divider"></div>
-          <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          <p class="about__text">
+            I am a beginner front-end developer with experience in hosting administration, currently looking for a job. On this page you can find the information about my skills, my projects, and ways to contact me.</p>
         </div>
         <div class="about__skills">
           <div class="about__skills-item">
@@ -114,36 +123,36 @@
             </div>
             <div>
               <div class="title title_fz14">
-                Web-разработка
+                Content Management System(CMS)
               </div>
               <div class="about__skills-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Installation and configuration of such CMS as: Joomla, WordPress and others.
               </div>
             </div>
           </div>
           <div class="about__skills-item">
             <div class="about__skills-circle">
-              <img src="icons/about_me/mobile_dev.svg" alt="mobile-dev">
+              <img src="icons/about_me/web-server.svg" alt="mobile-dev">
             </div>
             <div>
               <div class="title title_fz14">
-                Разработка приложений
+                Work with web-servers
               </div>
               <div class="about__skills-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Configuration Web Servers like Apache and Nginx and other Linux OS Settings.
               </div>
             </div>
           </div>
           <div class="about__skills-item">
             <div class="about__skills-circle">
-              <img src="icons/about_me/design.svg" alt="design">
+              <img src="icons/about_me/dns.svg" alt="design">
             </div>
             <div>
               <div class="title title_fz14">
-                UI/UX Design
+                DNS and MAIL
               </div>
               <div class="about__skills-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                I have experience with DNS servers and resource records and setting up mail servers.
               </div>
             </div>
           </div>
@@ -154,13 +163,13 @@
 
   <section class="resume">
     <div class="container">
-      <h2 class="title title_fz16 title__section-title">Опыт</h2>
-      <div class="title title_fz36 title__section-subtitle">Чем я буду полезен</div>
+      <h2 class="title title_fz16 title__section-title">My experience</h2>
+      <div class="title title_fz36 title__section-subtitle">My education and work experience</div>
       <div class="divider"></div>
 
       <div class="resume__wrapper">
         <div class="resume__column">
-          <h3 class="title title_fz20 resume__column-title">Образование</h3>
+          <h3 class="title title_fz20 resume__column-title">Education</h3>
           <ul>
             <li>
               <div class="resume__item">
@@ -168,11 +177,13 @@
                   <div class="resume__item-icon">
                     <img src="icons/experience/university.svg" alt="university">
                   </div>
-                  <h4 class="title title_fz14">МГТУ им. Н. Э. Баумана</h4>
-                  <div class="resume__item-location">Диплом магистра | Москва (2014-2020)</div>
+                  <h4 class="title title_fz14">Technical University of Moldova</h4>
+                  <div class="resume__item-location">Licentiate Engineer | Chisinau (2011-2015)</div>
                 </div>
                 <div class="resume__item-body">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
+                  - The education field: Architecture and Civil Engineering <br>
+                  - Field of training: Cadastre and Land Use Planning <br>
+                  - Speciality: Real Estate Evaluation
                 </div>
               </div>
             </li>
@@ -182,18 +193,22 @@
                   <div class="resume__item-icon">
                     <img src="icons/experience/courses.svg" alt="courses">
                   </div>
-                  <h4 class="title title_fz14">МГТУ им. Н. Э. Баумана</h4>
-                  <div class="resume__item-location">Диплом магистра | Москва (2014-2020)</div>
+                  <h4 class="title title_fz14">Udemy Courses</h4>
+                  <div class="resume__item-location">Online courses | Chisinau (2020-2021)</div>
                 </div>
                 <div class="resume__item-body">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
+                  - Web-developer course <br>
+                  - React and Redux course <br>
+                  - NodeJS with express framework course <br>
+                  - NestJS course <br>
+                  - NextJS course <br>
                 </div>
               </div>
             </li>
           </ul>
         </div>
         <div class="resume__column">
-          <h3 class="title title_fz20 resume__column-title">Образование</h3>
+          <h3 class="title title_fz20 resume__column-title">Work experience</h3>
           <ul>
             <li>
               <div class="resume__item">
@@ -201,25 +216,15 @@
                   <div class="resume__item-icon">
                     <img src="icons/experience/developer.svg" alt="developer">
                   </div>
-                  <h4 class="title title_fz14">МГТУ им. Н. Э. Баумана</h4>
-                  <div class="resume__item-location">Диплом магистра | Москва (2014-2020)</div>
+                  <h4 class="title title_fz14">Reg.ru</h4>
+                  <div class="resume__item-location">Hosting technical support specialist | Chisinau (2016-2021)</div>
                 </div>
                 <div class="resume__item-body">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="resume__item">
-                <div class="resume__item-head">
-                  <div class="resume__item-icon">
-                    <img src="icons/experience/designer.svg" alt="design">
-                  </div>
-                  <h4 class="title title_fz14">МГТУ им. Н. Э. Баумана</h4>
-                  <div class="resume__item-location">Диплом магистра | Москва (2014-2020)</div>
-                </div>
-                <div class="resume__item-body">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
+                  - Maintenance and configuration of shared hosting and VPS on Linux <br>
+                  - DNS and Mail setup <br>
+                  - Apache and Nginx configuration <br>
+                  - Assistance in uploading and setting up sites on hosting services <br>
+                  - Work with control panels: ISPmanager, Cpanel, Plesk, Vesta
                 </div>
               </div>
             </li>
@@ -231,8 +236,8 @@
 
   <section class="skills">
     <div class="container">
-      <h2 class="title title_fz16 title__section-title">Навыки</h2>
-      <div class="title title_fz36 title__section-subtitle">Что я использую в работе</div>
+      <h2 class="title title_fz16 title__section-title">My skills</h2>
+      <div class="title title_fz36 title__section-subtitle">Digital skills</div>
       <div class="divider"></div>
 
       <div class="skills__items">
@@ -241,91 +246,84 @@
             <img src="icons/skills/html5.svg" alt="html5">
           </div>
           <h3 class="title title_fz14">HTML5</h3>
-          <p>Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более SEO-оптимизированную структуру вашего продукта</p>
+          <p>Creates the skeleton of your site or application, and the fifth version will allow me to create a more SEO-optimized structure of your product</p>
         </div>
         <div class="skills__item">
           <div class="skills__item-img">
             <img src="icons/skills/css3.svg" alt="css3">
           </div>
           <h3 class="title title_fz14">CSS3</h3>
-          <p>Этот язык стилей позволяет мне создавать абсолютно любой внешний вид вашего сайта или приложения. Все ограничивается только вашей фантазией!</p>
+          <p>This style language allows me to create absolutely any look and feel for your site or application. Everything is limited only by your imagination!</p>
         </div>
         <div class="skills__item">
           <div class="skills__item-img">
             <img src="icons/skills/js.svg" alt="js">
           </div>
           <h3 class="title title_fz14">Java Script</h3>
-          <p>Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки, вкладки, получение данных от сервера и многое другое</p>
+          <p>This programming language allows you to bring anything to life: sliders, windows, tooltips, tabs, getting data from the server and much more.</p>
         </div>
         <div class="skills__item">
           <div class="skills__item-img">
-            <img src="icons/skills/jquery.svg" alt="jquery">
+            <img src="icons/skills/redux.svg" alt="jquery">
           </div>
-          <h3 class="title title_fz14">Jquery</h3>
-          <p>Библиотека Jquery позволит ускорить разработку. Без необходимости интегрировать в проект мы её не будем, но навык работы с ней присутствует</p>
+          <h3 class="title title_fz14">Redux</h3>
+          <p>Redux is a predictable state container for JavaScript apps.</p>
         </div>
         <div class="skills__item">
           <div class="skills__item-img">
             <img src="icons/skills/react.svg" alt="react">
           </div>
           <h3 class="title title_fz14">React</h3>
-          <p>Эта библиотека позволяет создавать web-приложения. Мы можем создать максимально интерактивный продукт именно под ваши цели</p>
+          <p>Declarative js library for creating user interface. React interfaces are made up of small blocks called components.</p>
         </div>
         <div class="skills__item">
           <div class="skills__item-img">
             <img src="icons/skills/node.js.svg" alt="nodejs">
           </div>
           <h3 class="title title_fz14">Node.js</h3>
-          <p>Эта платформа позволяет создавать бэкенд для вашего продукта - “мозги”, которые будут выполнять действия, которые пользователь не видит</p>
-        </div>
-        <div class="skills__item">
-          <div class="skills__item-img">
-            <img src="icons/skills/mongo.db.svg" alt="mongodb">
-          </div>
-          <h3 class="title title_fz14">Mongo.db</h3>
-          <p>Это нереляционная база данных, которая будет хранить данные вашего сайта или приложения</p>
+          <p>This platform allows you to create a backend for your product - "brains" that will perform actions that the user does not see</p>
         </div>
       </div>
 
       <div class="skills__ratings">
         <div class="skills__ratings-item">
-          <div class="title title_fz14 skills__ratings-title">Создание сайтов</div>
-          <div class="skills__ratings-counter">100%</div>
+          <div class="title title_fz14 skills__ratings-title">JS</div>
+          <div class="skills__ratings-counter">80%</div>
           <div class="skills__ratings-line">
             <span></span>
           </div>
         </div>
         <div class="skills__ratings-item">
-          <div class="title title_fz14 skills__ratings-title">Создание приложений</div>
-          <div class="skills__ratings-counter">85%</div>
+          <div class="title title_fz14 skills__ratings-title">React</div>
+          <div class="skills__ratings-counter">80%</div>
           <div class="skills__ratings-line">
             <span></span>
           </div>
         </div>
         <div class="skills__ratings-item">
-          <div class="title title_fz14 skills__ratings-title">Работа с данными</div>
+          <div class="title title_fz14 skills__ratings-title">CSS</div>
           <div class="skills__ratings-counter">90%</div>
           <div class="skills__ratings-line">
             <span></span>
           </div>
         </div>
         <div class="skills__ratings-item">
-          <div class="title title_fz14 skills__ratings-title">Креативность</div>
+          <div class="title title_fz14 skills__ratings-title">Creativity</div>
           <div class="skills__ratings-counter">75%</div>
           <div class="skills__ratings-line">
             <span></span>
           </div>
         </div>
         <div class="skills__ratings-item">
-          <div class="title title_fz14 skills__ratings-title">Создание дизайна</div>
-          <div class="skills__ratings-counter">90%</div>
+          <div class="title title_fz14 skills__ratings-title">NodeJS</div>
+          <div class="skills__ratings-counter">50%</div>
           <div class="skills__ratings-line">
             <span></span>
           </div>
         </div>
         <div class="skills__ratings-item">
-          <div class="title title_fz14 skills__ratings-title">Soft skills</div>
-          <div class="skills__ratings-counter">95%</div>
+          <div class="title title_fz14 skills__ratings-title">English</div>
+          <div class="skills__ratings-counter">65%</div>
           <div class="skills__ratings-line">
             <span></span>
           </div>
@@ -336,8 +334,8 @@
 
   <section class="portfolio">
     <div class="container">
-      <h2 class="title title_fz16 title__section-title">Портфолио</h2>
-      <div class="title title_fz36 title__section-subtitle">Мои работы</div>
+      <h2 class="title title_fz16 title__section-title">Portfolio</h2>
+      <div class="title title_fz36 title__section-subtitle">My pet-projects</div>
       <div class="divider"></div>
 
       <div class="portfolio__wrapper">
@@ -363,45 +361,6 @@
     </div>
   </section>
 
-  <section class="price">
-    <div class="container">
-      <h2 class="title title_fz16 title__section-title">Прайс-лист</h2>
-      <div class="divider"></div>
-      <div class="price__wrapper">
-        <div class="price__item">
-          <div class="price__type">Landing-page</div>
-          <div class="price__count">от 8000 руб.</div>
-          <div class="price__descr">Одностраничный сайт для презентации услуг/товаров/...</div>
-        </div>
-        <div class="price__item">
-          <div class="price__type">Корпоративный сайт</div>
-          <div class="price__count">от 20000 руб.</div>
-          <div class="price__descr">Сайт для вашего бизнеса или компании</div>
-        </div>
-        <div class="price__item">
-          <div class="price__type">Интернет-магазин</div>
-          <div class="price__count">от 30000 руб.</div>
-          <div class="price__descr">Инструмент для ваших продаж в сети</div>
-        </div>
-        <div class="price__item">
-          <div class="price__type">Web-приложение</div>
-          <div class="price__count">от 28000 руб.</div>
-          <div class="price__descr">Приложение внутри браузера для лучшего комфорта</div>
-        </div>
-        <div class="price__item">
-          <div class="price__type">Android/IOS Приложение</div>
-          <div class="price__count">от 25000 руб.</div>
-          <div class="price__descr">Приложение для смартфона любой ОС</div>
-        </div>
-        <div class="price__item">
-          <div class="price__type">Дизайн</div>
-          <div class="price__count">Индивидуально</div>
-          <div class="price__descr">Создам дизайн для вашего сайта/приложения...</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <section class="contacts">
     <div class="container">
       <div class="contacts__wrapper">
@@ -409,43 +368,43 @@
           <img src="img/contact.jpg" alt="photo">
         </div>
         <div class="contacts__descr">
-          <h2 class="title title_fz16 contacts__title">Контакты</h2> 
-          <div class="title title_fz36 contacts__subtitle">Свяжитесь со мной</div>
+          <h2 class="title title_fz16 contacts__title">Contacts</h2>
+          <div class="title title_fz36 contacts__subtitle">Contact me</div>
           <div class="divider"></div>
 
-          <div class="title title_fz14 contacts__text">Любым удобным для вас способом:</div>
+          <div class="title title_fz14 contacts__text">In any way convenient for you:</div>
           <div class="contacts__social">
-            <a href="" class="contacts__link">
+            <a href="https://www.facebook.com/povolocico/" class="contacts__link" target="_blank">
               <img src="icons/social/fb_black.svg" alt="facebook">
             </a>
-            <a href="" class="contacts__link">
+            <a href="https://t.me/deletelol" class="contacts__link" target="_blank">
               <img src="icons/social/telegram.svg" alt="telegram">
             </a>
-            <a href="" class="contacts__link">
-              <img src="icons/social/instagram.svg" alt="instagram">
+            <a href="https://vk.com/povolocico" class="contacts__link" target="_blank">
+              <img src="icons/social/vk.svg" alt="vkontakte">
             </a>
           </div>
-          <div class="title title_fz14 contacts__text">Или оставьте ваши данные и я сам вам напишу:</div>
-          <form action="" class="contacts__form">
+          <div class="title title_fz14 contacts__text">Or leave your details and I will write to you myself:</div>
+          <form class="contacts__form">
             <div class="contacts__input">
               <input required name="name" id="name" type="text">
-              <label for="name">Ваше имя</label>
+              <label for="name">Your name</label>
             </div>
 
             <div class="contacts__input">
               <input required name="email" id="email" type="email">
-              <label for="email">Ваша почта</label>
+              <label for="email">Your email</label>
             </div>
 
             <div class="contacts__textarea">
               <textarea name="text" id="text"></textarea>
-              <label for="text">Ваше сообщение</label>
+              <label for="text">Your message</label>
             </div>
             <div class="contacts__triggers">
-              <button class="btn contacts__btn">Отправить сообщение</button>
+              <button onclick="sendEmail()" class="btn contacts__btn">Send message</button>
               <div class="contacts__policy">
                 <input required type="checkbox">
-                <span>Я согласен(а) с <a href="./policy.html">политикой конфиденциальности</a></span>
+                <span>I am agree with <a href="./policy.html">privacy policy</a></span>
               </div>
             </div>
           </form>
