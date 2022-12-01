@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d1069786-c5d7-4660-80cd-eccbb7314b80" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../practice_all/drag_and_drop_react/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice_all/typescript_basics/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice_all/typescript_basics/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice_all/typescript_basics/.idea/typescript_basics.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice_all/typescript_basics/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice_all/typescript_basics/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice_all/typescript_basics/files/classes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice_all/typescript_basics/files/enum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice_all/typescript_basics/files/enum.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice_all/typescript_basics/files/functions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice_all/typescript_basics/files/functions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice_all/typescript_basics/files/interfaces.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice_all/typescript_basics/files/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice_all/typescript_basics/ts_project/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice_all/typescript_basics/ts_project/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice_all/typescript_basics/ts_project/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice_all/typescript_basics/ts_project/.idea/ts_project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice_all/typescript_basics/ts_project/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice_all/typescript_basics/ts_project/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice_all/typescript_basics/ts_project/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice_all/typescript_basics/ts_project/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice_all/typescript_basics/ts_project/src/decorators.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice_all/typescript_basics/ts_project/src/generic.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice_all/typescript_basics/ts_project/tsconfig.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1u1ygqAkLlZ3l8U1I1gJvnU0vFr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../practice_all/verstka/marathon" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/node_modules/stylelint" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1069786-c5d7-4660-80cd-eccbb7314b80" name="Default Changelist" comment="" />
+      <created>1623847505808</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623847505808</updated>
+      <workItem from="1623847508934" duration="484000" />
+      <workItem from="1623848008840" duration="1601000" />
+      <workItem from="1623916696413" duration="606000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

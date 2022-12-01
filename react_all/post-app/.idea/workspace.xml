@@ -2,35 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11d91d32-9f0b-41e5-9fc5-bcb4509bdfda" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../practice_all/drag_and_drop_react/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/.idea/typescript_basics.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/files/classes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/files/enum.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/files/enum.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/files/functions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/files/functions.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/files/interfaces.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/files/types.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/ts_project/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/ts_project/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/ts_project/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/ts_project/.idea/ts_project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/ts_project/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/ts_project/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/ts_project/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/ts_project/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/ts_project/src/decorators.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/ts_project/src/generic.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/ts_project/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course_react/react-apps/star-db/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../course_react/react-apps/star-db/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course_react/react-apps/star-db/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../course_react/react-apps/star-db/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../verstka/portfolio_project/dist/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../verstka/portfolio_project/dist/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../verstka/portfolio_project/src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../verstka/portfolio_project/src/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/.idea/react-redux-app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/src/actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/src/components/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/src/components/counter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-redux-app/src/reducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react/babel.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react/homework/lesson86_es_standarts/done.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react/homework/lesson86_es_standarts/homework.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../verstka/portfolio_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../verstka/portfolio_project/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-redux-app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../course_react/react-apps/todo" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -64,6 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1626104927234</updated>
       <workItem from="1626104929497" duration="144000" />
+      <workItem from="1626684706054" duration="95000" />
     </task>
     <servers />
   </component>

@@ -1,49 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f6f57e8-705f-4811-89e9-1871c38a74ea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../practice_all/drag_and_drop_react/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/.idea/typescript_basics.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/files/classes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/files/enum.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/files/enum.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/files/functions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/files/functions.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/files/interfaces.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/files/types.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/ts_project/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/ts_project/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/ts_project/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/ts_project/.idea/ts_project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/ts_project/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/ts_project/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/ts_project/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/ts_project/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/ts_project/src/decorators.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/ts_project/src/generic.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice_all/typescript_basics/ts_project/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react_all/course_react/react-apps/star-db/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../react_all/course_react/react-apps/star-db/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react_all/course_react/react-apps/star-db/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../react_all/course_react/react-apps/star-db/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react_all/post-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../react_all/post-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/icons/social/telegram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/icons/social/telegram.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons/social/telegram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/social/telegram.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_price.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../second_project/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../second_project/img/alice.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../second_project/index.html" beforeDir="false" />
-    </list>
+    <list default="true" id="7f6f57e8-705f-4811-89e9-1871c38a74ea" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +25,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../react_all/react-redux-app" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -84,6 +42,7 @@
       <workItem from="1626259471991" duration="7124000" />
       <workItem from="1626286293649" duration="238000" />
       <workItem from="1626674810802" duration="56000" />
+      <workItem from="1626684305742" duration="364000" />
     </task>
     <servers />
   </component>

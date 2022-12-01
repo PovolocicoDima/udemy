@@ -1,0 +1,33 @@
+
+
+.content__circle {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    left: 0;
+    /*animation-name: white-circle;*/
+    /*animation-duration: 2s;*/
+    /*animation-timing-function: linear;*/
+    /*animation-iteration-count: infinite;*/
+    /*animation-direction: alternate-reverse;*/
+    animation: white-circle 2s linear infinite alternate-reverse;
+}
+
+
+@keyframes white-circle {
+    0%{
+        left: 0;
+        background-color: red;
+    }
+    50%{
+        border-radius: 0;
+        left: 250px;
+        background-color: yellow;
+    }
+    100%{
+        left: 500px;
+        background-color: green;
+    }
+}
