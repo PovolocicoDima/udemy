@@ -1,23 +1,36 @@
-enum StatusCode {
-  SUCCESS = 1,
-  IN_PROCESS = 'p',
-  FAILED = 'f',
+function generateError(message: string): never {
+  throw new Error(message);
 }
 
-
-const res = {
-  message: 'paymant pass',
-  statusCode: StatusCode.SUCCESS
-};
-
-if (res.statusCode === StatusCode.SUCCESS) {
-
+function dumpError(): never {
+  return dumpError();
 }
 
-function action(status: StatusCode) {
+type paymentAction = 'refund' | 'checkout' | 'reject';
 
+function processAction(action: paymentAction) {
+  switch( action ) {
+    case 'refund':
+      // 
+      break;
+    case 'reject':
+      // 
+      break;  
+    case 'checkout':
+      // 
+      break;
+    default:
+      const _: never = action;
+      throw new Error('no action');
+  }
 }
 
-action(StatusCode.SUCCESS);
-action(1);
-action(StatusCode.FAILED);
+function isString(x: string | number): boolean {
+  if (typeof x === 'string') {
+    return true;
+  } else if (typeof x === 'number') {
+    return false;
+  }
+
+  generateError('error'); 
+}
