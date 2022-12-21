@@ -1,36 +1,24 @@
-function generateError(message: string): never {
-  throw new Error(message);
-}
+class User {
+  name: string;
+  age: number;
 
-function dumpError(): never {
-  return dumpError();
-}
-
-type paymentAction = 'refund' | 'checkout' | 'reject';
-
-function processAction(action: paymentAction) {
-  switch( action ) {
-    case 'refund':
-      // 
-      break;
-    case 'reject':
-      // 
-      break;  
-    case 'checkout':
-      // 
-      break;
-    default:
-      const _: never = action;
-      throw new Error('no action');
+  constructor();
+  constructor(name: string);
+  constructor(age: number);
+  constructor(name: string, age: number);
+  constructor(ageOrName?: number | string, age?: number) {
+    if (typeof ageOrName === 'string') {
+      this.name = ageOrName;
+    } else if (typeof ageOrName === 'number') {
+      this.age = ageOrName;
+    }
+    if (typeof age === 'number') {
+      this.age = age;
+    }
   }
 }
 
-function isString(x: string | number): boolean {
-  if (typeof x === 'string') {
-    return true;
-  } else if (typeof x === 'number') {
-    return false;
-  }
-
-  generateError('error'); 
-}
+const user = new User('vasea')
+const user1 = new User(33)
+const user2 = new User('vasea', 33)
+const user3 = new User()
