@@ -1,24 +1,35 @@
-class User {
-  name: string;
-  age: number;
 
-  constructor();
-  constructor(name: string);
-  constructor(age: number);
-  constructor(name: string, age: number);
-  constructor(ageOrName?: number | string, age?: number) {
-    if (typeof ageOrName === 'string') {
-      this.name = ageOrName;
-    } else if (typeof ageOrName === 'number') {
-      this.age = ageOrName;
-    }
-    if (typeof age === 'number') {
-      this.age = age;
-    }
+
+class Cart1 {
+  productList: Product[]; 
+  // delivery: //;
+
+  addProductsToCart(p: Product): void;
+  addProductsToCart(p: Product[]): void;
+  addProductsToCart(p: Product | Product[]) {
+    this.productList.push(...p);
+  }
+
+  deleteProductFromCart(id: number) {
+    return this.productList.filter( product => product.id !== id);
+  }
+
+  countProductsPriceInCart() {
+    return this.productList.map( product => product.price).reduce((a, b) => a + b);
+  }
+
+  addDelivery() {
+
+  }
+
+  checkout() {
+    if (this.productList && this.de)
   }
 }
 
-const user = new User('vasea')
-const user1 = new User(33)
-const user2 = new User('vasea', 33)
-const user3 = new User()
+class Product1 {
+  id: number;
+  name: string;
+  price: number;
+}
+
