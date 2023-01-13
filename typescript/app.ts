@@ -1,39 +1,43 @@
-type Contructor = new (...args: any[]) => {};
-type GConstructor<T = {}> = new (...args: any[]) => T;
-
-class List {
-  constructor(public items: string[]) { }
+interface Data {
+  group: number;
+  name: string;
 }
 
-class Accordion {
-  isOpened: boolean;
+const data: Data[] = [
+  { group: 1, name: 'a' },
+  { group: 1, name: 'b' },
+  { group: 2, name: 'c' },
+];
+
+interface IGroup<T> {
+  [key: string]: T[];
 }
 
-type ListType = GConstructor<List>
-type AccordionType = GConstructor<Accordion>
+type key = string | number | symbol;
 
-// class ExtendedListClass extends List {
-//   first() {
-//     return this.items[0];
-//   }
+function sortByGroup<T extends Record<key, any>>(array: T[], key: keyof T): IGroup<T> {
+  return array.reduce<IGroup<T>>((map: IGroup<T>, item) => {
+    const itemKey = item[key];
+    let curEl = map[itemKey];
+    if (Array.isArray(curEl)) {
+      curEl.push(item);
+    } else {
+      curEl = [item];
+    }
+
+    map[itemKey] = curEl;
+    return map;
+  }, {});
+}
+
+// function sortByGroup<T extends Data[], K extends keyof Data >(arr: T, group: K): Result {
+//   const result: Result = {};
+//   arr.forEach((elem: Data) => {
+//     result[group] : 
+//   });
+
+//   return result;
 // }
 
-function ExtendedList<TBase extends ListType & AccordionType>(Base: TBase) {
-  return class ExtendedList extends Base {
-    first() {
-      return this.items[0];
-    }
-    second() {
-      return this.items[1];
-    }
-  }
-}
-
-class AccordionList {
-  isOpened: boolean;
-  constructor(public items: string[]) { }
-}
-
-const list = ExtendedList(AccordionList);
-const res = new list(['first', 'second']);
-console.log(res.isOpened  );
+const res = sortByGroup<Data>(data, 'group');
+console.log(res);
