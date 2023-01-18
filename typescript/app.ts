@@ -1,43 +1,35 @@
-interface Data {
-  group: number;
+interface HTTPResponse<T extends 'success' | 'failed'> {
+  code: number;
+  data: T extends 'success' ? string : Error;
+}
+
+const suc: HTTPResponse<'success'> = {
+  code: 200,
+  data: 'done'
+}
+
+const fail: HTTPResponse<'failed'> = {
+  code: 500,
+  data: new Error('test'),
+}
+
+class User {
+  id: number;
   name: string;
 }
 
-const data: Data[] = [
-  { group: 1, name: 'a' },
-  { group: 1, name: 'b' },
-  { group: 2, name: 'c' },
-];
-
-interface IGroup<T> {
-  [key: string]: T[];
+class UserPersistant {
+  dbId: string;
 }
 
-type key = string | number | symbol;
-
-function sortByGroup<T extends Record<key, any>>(array: T[], key: keyof T): IGroup<T> {
-  return array.reduce<IGroup<T>>((map: IGroup<T>, item) => {
-    const itemKey = item[key];
-    let curEl = map[itemKey];
-    if (Array.isArray(curEl)) {
-      curEl.push(item);
-    } else {
-      curEl = [item];
-    }
-
-    map[itemKey] = curEl;
-    return map;
-  }, {});
+function getUser(id: number): User;
+function getUser(dbId: string): UserPersistant
+function getUser(dbIdOrId: string | number): User | UserPersistant {
+  if (typeof dbIdOrId === 'number') {
+    return new User();
+  } else {
+    return new UserPersistant();
+  }
 }
 
-// function sortByGroup<T extends Data[], K extends keyof Data >(arr: T, group: K): Result {
-//   const result: Result = {};
-//   arr.forEach((elem: Data) => {
-//     result[group] : 
-//   });
-
-//   return result;
-// }
-
-const res = sortByGroup<Data>(data, 'group');
-console.log(res);
+console.log(getUser('s'))
