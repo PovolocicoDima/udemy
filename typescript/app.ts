@@ -23,7 +23,7 @@ class UserPersistant {
 }
 
 function getUser(id: number): User;
-function getUser(dbId: string): UserPersistant
+function getUser(dbId: string): UserPersistant;
 function getUser(dbIdOrId: string | number): User | UserPersistant {
   if (typeof dbIdOrId === 'number') {
     return new User();
