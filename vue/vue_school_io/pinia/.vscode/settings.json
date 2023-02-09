@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "prettier.vueIndentScriptAndStyle": true,
+  "prettier.printWidth": 100,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
